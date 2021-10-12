@@ -47,7 +47,7 @@ type AppController struct {
 }
 
 func (this *AppController) Get() {
-	this.TplNam = "welcome.html"
+	this.TplName = "welcome.html"
 }
 
 func (this *AppController) Join() {
